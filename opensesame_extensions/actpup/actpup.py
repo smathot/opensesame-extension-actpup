@@ -61,10 +61,6 @@ class actpup(base_extension):
 		
 		timer.pause()
 
-	def event_end_experiment(self, ret_val):
-		
-		timer.resume()
-
 	def event_actpup_expertise_0(self): self.set_expertise(0)
 	def event_actpup_expertise_1(self): self.set_expertise(1)
 	def event_actpup_expertise_2(self): self.set_expertise(2)
