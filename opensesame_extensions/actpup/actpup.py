@@ -44,7 +44,7 @@ class actpup(base_extension):
 	def generate_id(self):
 		
 		import uuid
-		cfg.actpup_id = uuid.uuid1()
+		cfg.actpup_id = safe_decode(uuid.uuid1())
 		
 	def start(self):
 

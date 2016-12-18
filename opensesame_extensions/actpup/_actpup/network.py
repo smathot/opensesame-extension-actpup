@@ -42,7 +42,7 @@ def read(url):
 	# print('response', response)
 	fd.close()
 	try:
-		return json.loads(response)
+		return json.loads(safe_decode(response))
 	except ValueError:
 		return { 'status' : 'error', 'message' : 'failed to decode json' }
 
