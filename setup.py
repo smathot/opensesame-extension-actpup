@@ -40,7 +40,7 @@ def data_files():
 
 setup(
 	name="opensesame-extension-actpup",
-	version="0.1.2",
+	version="0.1.3",
 	description="Participate in ActPup, a vision-science experiment",
 	author="Sebastiaan Mathot",
 	author_email="s.mathot@cogsci.nl",

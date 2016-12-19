@@ -40,6 +40,9 @@ def on_timeout():
 def pause():
 
 	global time_remaining
+	
+	if active_lang is None:
+		return		
 	pause_time = time.time()
 	# print('pause_time %s %.2f' % (active_lang, pause_time))
 	timer[active_lang].stop()
