@@ -39,4 +39,4 @@ def on_focus_in(editor, e):
 def on_focus_out(editor, e):
 	
 	timer.pause()
-	QEditor._focusInEvent(editor, e)
+	QEditor._focusOutEvent(editor, e)
