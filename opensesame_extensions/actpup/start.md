@@ -1,4 +1,4 @@
-# Thank you for participating!
+# Thank you for participating in ActPup!
 
 With this experiment we want to:
 
@@ -23,11 +23,11 @@ We store the number of keys that you press while working with OpenSesame.
 
 - We don't store which keys you press, only whether they are letters, punctuation characters, etc.
 - We do not log the order in which you press keys, only how often they are pressed within a certain time.
-- We collect key presses while you develop an experiment, not those of participants while they run an experiment.
+- We collect your key presses while you develop an experiment, not those of participants while they run an experiment.
 
 From this information, we will not be able to tell what you do with OpenSesame. Your anonymity is guaranteed.
 
-This experiment is conducted by Sebastiaan Mathôt, and has been approved by the ethics committee of the Department of Psychology of the University of Groningen [ETHICS APPROVAL TO BE SUBMITTED].
+This experiment is conducted by Sebastiaan Mathôt, and has been approved by the ethics committee of the Department of Psychology of the University of Groningen.
 
 
 ## Stopping the experiment
